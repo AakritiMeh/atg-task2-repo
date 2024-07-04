@@ -1,0 +1,52 @@
+.userListmain{
+    width:30vw;
+  
+
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+    max-height: 72vh;
+    overflow-y: auto;
+}
+  
+.user-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+  
+.user-list li:hover {
+    background-color: #f0f0f0;
+}
+  
+.user-list li.selected {
+    background-color: #adadad;
+}
+  
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+.user-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  
